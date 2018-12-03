@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var peopleCount: UILabel!
     @IBOutlet weak var individualBill: UILabel!
     
+    
     var myNum = 1.0
     @IBAction func stepCounter(_ sender: UIStepper) {
         myNum = sender.value
